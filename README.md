@@ -1,4 +1,6 @@
-# CHANDAN KUMAR (BATCH 3)- GOOGLE COLAB / TIME SERIES 3 : Fb PropHet
+# CHANDAN KUMAR (BATCH 3)- GOOGLE COLAB / TIME SERIES 3 : 
+##Fb PropHet
+
 ## (Rahul Agnihotri(T.L))
 
 # Introduction
@@ -13,6 +15,20 @@
 •       It works best with time series that have strong seasonal effects and several seasons of historical data.
 
 •       Prophet is robust to missing data and shifts in the trend, and typically handles outliers well.
+
+•       Time series is a series of data points indexed (or listed or graphed) in time order. Therefore, the data is organized by relatively deterministic timestamps, and may, compared to random sample data, contain additional information that we can extract.
+
+•       Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing data and shifts in the trend, and typically handles outliers well.
+
+•       Seasonal effects caused by human behavior: weekly, monthly and yearly cycles, dips and peaks on public holidays.
+
+
+Difference between Arima and Prophet
+-------------------------------------
+
+•      ‘Prophet’, which utilizes a Bayesian based curve fitting method to forecast the time series data. The cool thing about Prophet is that it doesn’t require much prior knowledge or experience of forecasting time series data since. 
+
+•      It automatically finds seasonal trends beneath the data and offers a set of ‘easy to understand’ parameters. Hence, it allows non statisticians to start using it and get reasonably good results that are often equal or sometimes even better than the ones produced by the experts.
 
 
 
