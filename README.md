@@ -1,7 +1,8 @@
+# CHANDAN KUMAR (BATCH 3)- GOOGLE COLAB / TIME SERIES 3 : Fb PropHet
+## (Rahul Agnihotri(T.L))
+
 # Introduction
-
-
-<a href="https://drive.google.com/file/d/1zUf2WHlESMYUx5ygHhmKoBwvO5uihUHD/view?usp=sharing"> FB PROPHET IMPLEMENTATION BY CHANDAN KUMAR </a>
+<a href="https://drive.google.com/file/d/1zUf2WHlESMYUx5ygHhmKoBwvO5uihUHD/view?usp=sharing"> CLICK HERE TO GO FB PROPHET IMPLEMENTATION PAGE </a>
 
 <img src="prophet.png" class="inline" alt="centered image">
 
@@ -148,7 +149,7 @@ Seasonality, Holiday Effects, And Regressors
 --------------------------------------------
 Seasonal effects s(t) is approximated by the following function:
 ------------------------------------------------------------------
-
+<a href="https://drive.google.com/file/d/1zUf2WHlESMYUx5ygHhmKoBwvO5uihUHD/view?usp=sharing">
 
 
 
