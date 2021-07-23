@@ -52,6 +52,98 @@ Available in R or Python.
 •      Figure 1: Schematic view of the analyst-in-the-loop approach to forecasting at scale, which
 best makes use of human and automated tasks 
 
-•      
-•     
+
+
+Classical time series forecasting techniques
+--------------------------------------------
+
+•      1.Classical time series forecasting techniques build on stats models 
+which requires lots of effort to tune models and expect in data and 
+industry.
+
+•      2. The person has to tune the parameters of the method with regards 
+to the specific problem when a forecasting model doesn’t perform 
+as expected.
+
+•      3. the underlying time series models work. It’s difficult for some 
+organizations to handling those forecasting without data science 
+teams.
+
+
+
+Highlights of Facebook Prophet
+--------------------------------------------
+
+•      Very fast, since it’s built in Stan, a programming language for statistical 
+inference written in C++
+
+•      An additive regression model where non-linear trends are fit with 
+yearly, weekly, and daily seasonality, 
+•      plus, holiday effects: 1. A piecewise linear or logistic growth curve 
+trend. Prophet automatically detects changes in trends by selecting 
+changepoints 
+•      from the data 2. A yearly seasonal component modeled using 
+•      Fourier series 3. A weekly seasonal component using dummy 
+variables 4. A user-provided list of important holidays.
+• Robust to missing data and shifts in the trend, and typically handles 
+outliers.
+•      Easy procedure to tweak and adjust forecast while adding domain 
+knowledge or business insights.
+
+
+
+
+The Prophet Forecasting Model
+--------------------------------------------
+
+The Prophet uses a decomposable time series model with three main 
+model components: trend, seasonality, and holidays. They are combined 
+in the following equation:
+
+•      y(t)= g(t) + s(t) + h(t) + εt
+
+•      g(t): piecewise linear or logistic growth curve for modeling nonperiodic changes in time series
+•      s(t): periodic changes (e.g., weekly/yearly seasonality)
+•      h(t): effects of holidays (user provided) with irregular schedules
+•      εt: error term accounts for any unusual changes not accommodated 
+by the model
+•      Using time as a regressor, Prophet is trying to fit several linear and 
+nonlinear functions of time as components.
+
+
+
+Saturating growth
+--------------------------------------------
+
+•      Set a carrying capacity captor specify the maximum achievable point 
+due to the business scenarios or constraints: market size, total 
+population size, maximum budget, etc.
+
+•      A saturating minimum, which is specified with a column floor in the 
+same way as the cap column specifies the maximum
+
+
+Trend Changepoints
+--------------------------------------------
+
+•      The model could be overfitting or underfitting while working with 
+the trend component. The input of changepoints built in Prophet 
+allowed is increased the fit becomes more flexible.
+
+
+Seasonality, Holiday Effects, And Regressors
+--------------------------------------------
+Seasonal effects s(t) is approximated by the following function:
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
 
