@@ -1,5 +1,8 @@
 # Introduction
 
+prophet.png
+<img src="prophet.png" class="inline" style="width: 300px; height: 300px;" alt="centered image">
+
 •       Prophet is open source software released by Facebook’s Core Data Science team. It is available for download on CRAN and PyPI.
 
 •       Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects.
