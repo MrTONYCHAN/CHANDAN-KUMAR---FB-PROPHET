@@ -81,14 +81,22 @@ inference written in C++
 
 •      An additive regression model where non-linear trends are fit with 
 yearly, weekly, and daily seasonality, 
-•      plus, holiday effects: 1. A piecewise linear or logistic growth curve 
+
+•      plus, holiday effects: 
+
+•      1. A piecewise linear or logistic growth curve 
 trend. Prophet automatically detects changes in trends by selecting 
 changepoints 
-•      from the data 2. A yearly seasonal component modeled using 
+
+•      from the data 2. A yearly seasonal component modeled using
+
+
 •      Fourier series 3. A weekly seasonal component using dummy 
 variables 4. A user-provided list of important holidays.
 • Robust to missing data and shifts in the trend, and typically handles 
 outliers.
+
+
 •      Easy procedure to tweak and adjust forecast while adding domain 
 knowledge or business insights.
 
