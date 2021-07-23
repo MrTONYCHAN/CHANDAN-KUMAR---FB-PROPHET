@@ -47,7 +47,7 @@ Available in R or Python.
 
 •      First, completely automatic forecasting techniques can be hardto tune and are often too in exible to incorporate useful assumptions or heuristics.  Second,the analysts responsible for data science tasks throughout an organization typically havedeep domain expertise about the speci c products or services that they support, but oftendo  not  have  training  in  time  series  forecasting
 
-<img src="Untitled1.png" class="inline" style="width: 100px; height: 100px;">
+<img src="Untitled1.png" class="inline" style="width: 300px; height: 300px;">
 
 •      Figure 1: Schematic view of the analyst-in-the-loop approach to forecasting at scale, which
 best makes use of human and automated tasks 
